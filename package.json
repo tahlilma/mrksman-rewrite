@@ -1,0 +1,27 @@
+{
+  "name": "mrksman-rewrite",
+  "version": "1.0.0",
+  "description": "Rewrite of mrksman with Discord JS 13.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "download": "^8.0.0",
+    "luxon": "^2.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "temp/*"
+    ]
+  }
+}
